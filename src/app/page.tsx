@@ -4,7 +4,7 @@ import { cn } from "@/lib/utils";
 
 export default function Home() {
   return (
-    <main className="bg-primary gap-4 w-full flex items-center justify-center p-24">
+    <main className="bg-gradientconic-t from-emerald-400  to-sky-600 gap-4 w-full flex items-center justify-center p-24">
       <Image
         className=""
         src="/next.svg"

@@ -1,8 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 
-import { shadcnPreset } from "./tailwind/shadcn-preset";
+import { customThemePreset } from "./src/tailwind/customTheme-preset";
+// import { shadcnPreset } from "./src/tailwind/shadcn-preset";
 
 module.exports = {
-  presets: [shadcnPreset],
+  presets: [customThemePreset],
   content: ["./src/**/*.{ts,tsx}"],
 };
